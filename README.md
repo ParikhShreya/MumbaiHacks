@@ -1,73 +1,152 @@
-# Welcome to your Lovable project
+# 🌿 AyurKin — AI-Powered Ayurvedic Family Health Companion
 
-## Project info
+**Team Name:** Apexian  
+**Team Members:**  
+- Kavya Dave (Team Leader)  
+- Janhavi More  
+- Shreya Parikh  
 
-**URL**: https://lovable.dev/projects/0e23a7ad-014d-4d5a-b4e1-5de1db568fad
+MumbaiHacks 2025 Project
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧭 Overview
 
-**Use Lovable**
+AyurKin is an AI-powered wellness platform that brings together **Ayurveda + Modern AI** to support the daily health of Indian families.  
+We combine image detection, voice interaction, OCR, health trend analysis, and personalized guidance into one simple interface.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0e23a7ad-014d-4d5a-b4e1-5de1db568fad) and start prompting.
+Our goal is to make preventive care easy, cultural, and accessible for every household.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+# 🚀 Core Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Below are the final **six mega features** that define AyurKin.  
+We focused on building features that are **impactful, feasible**, and aligned with the MumbaiHacks theme.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 1️⃣ Family Health Management & Chronic Disease Support  
+Manage your entire family's health in one place.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Individual profiles for all family members  
+- Track Diabetes, BP, Thyroid, PCOD, etc.  
+- Upload medical reports → **AI OCR auto-extracts values**  
+- Trend charts + early risk prediction  
+- Personalized Ayurvedic suggestions based on health trends  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**AI Highlight:**  
+Early risk detector (“Your BP is rising. Reduce salt + try evening walk + Sarvangasana.”)
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 2️⃣ Ayurveda-Based Skincare & Haircare AI Scanner  
+Upload a photo → get natural Ayurvedic solutions.
+
+- Acne, pigmentation, dark spots, dandruff, hair fall detection  
+- Image model + Ayurvedic reasoning  
+- Personalized remedies, oils, herbs & diet tips  
+- Supports Prakriti-based recommendations  
+
+**USP:** AI + Ayurveda + Indian skin/hair profiles.
+
+---
+
+## 3️⃣ AI Smart Meal Planner (Daily / Weekly / Monthly)  
+A complete diet companion for Indian families.
+
+- Meal plan based on body type, goals & medical conditions  
+- Custom beverages + immunity boosters  
+- Generates **Smart Grocery List**  
+- Indian regional diet support (Gujarati, Maharashtrian, South Indian, etc.)
+
+**Voice Example:**  
+“I have acidity today.” → Instant cooling diet plan.
+
+---
+
+## 4️⃣ AI Personalized Routine Planner + Smart Notifications  
+Wellness routines that adapt to the user’s day.
+
+- Auto-generated *Dincharya* and *Ratricharya*  
+- Sleep, water, meditation, exercise tracking  
+- Smart notifications that change based on performance  
+- Mood-aware encouragements
+
+**AI Touch:**  
+If user misses yoga → “Let’s try a short 5-minute breathing today 🌬”
+
+---
+
+## 5️⃣ AyurBot — AI Symptom Checker & Voice Doctor  
+A friendly Ayurvedic assistant.
+
+- Voice/text symptom checking  
+- Vata / Pitta / Kapha detection  
+- Herbal remedies, breathing exercises, lifestyle guidance  
+- Multi-language (Hindi, English, Gujarati, Marathi)
+
+**Example:**  
+“Cold + headache + stiffness” → Vata imbalance → Sesame oil massage + Ginger tea.
+
+---
+
+## 6️⃣ Main Interface + Wellness Dashboard  
+A clean, fast and beautiful Ayurvedic UI with:
+
+- Meal plan preview  
+- Remedies & routine  
+- Family health status  
+- Progress charts  
+- Voice bot  
+- Report history  
+
+**Bonus Add-ons:**  
+- Herbal ingredient scanner (camera)  
+- Ojas/Immunity Score  
+- Community support rooms
+
+---
+
+# 🧠 Tech Stack (Minimal + Powerful)
+
+| Part      | Technology |
+|----------|-------------|
+| Frontend | React + TypeScript + TailwindCSS |
+| Backend  | Node.js + Express |
+| AI       | Gemini / ChatGPT API, TensorFlow.js (image), Tesseract.js (OCR) |
+| Database | Firebase / MongoDB |
+| Auth     | Firebase Auth |
+| Voice    | Web Speech API |
+
+We intentionally kept the stack lightweight and hackathon-friendly.
+
+---
+
+# 🎯 Why This Project Matters
+
+- Tackles a real health gap in Indian families  
+- Uses AI to bring Ayurveda into daily life  
+- Focused on prediction, prevention & habit building  
+- Clean UI and simple user experience  
+- High scalability and practical feasibility  
+
+---
+
+# 🏆 Tagline
+
+> **“AyurKin — Your family’s AI-powered Ayurvedic companion for natural healing, early predictions, and daily wellness.”**
+
+---
+
+# 🛠 Running the Project (Dev Setup)
+
+```bash
+# Install dependencies
+npm install
+
+# Start frontend
 npm run dev
-```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0e23a7ad-014d-4d5a-b4e1-5de1db568fad) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# Start backend
+npm run server
